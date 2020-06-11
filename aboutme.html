@@ -3,8 +3,50 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <!-- <title>About</title> -->
   </head>
   <body>
+    <header>
+    <ul class="navigation_about">
+      <li> <a href="index.html" title="Home"> Home </a> </li>
+      <li> <a href="post/post_master.html"> Blog posts </a> </li>
+      <li> <a href="cv.html"> CV </a> </li>
+      <li> <a href="aboutme.html"> About </a> </li>
+      <li> <a href="https://github.com/dimitrisnikolaou10" target="_blank"> <img class="fa-github" width="20" height="20" src="photos/fa-github.png"/> </a> </li>
+      <li> <a href="https://www.linkedin.com/in/dimitris-nikolaou-29753080" target="_blank"> <img class="fa-linkedin" width="20" height="20" src="photos/fa-linkedin.png"/> </a> </li>
+      <li> <a href="https://www.instagram.com/dimidoesthings/" target="_blank"> <img class="fa-instagram" width="27" height="23" src="photos/fa-instagram.png"/> </a> </li>
+      <li> <a href="https://twitter.com/diminikolao" target="_blank"> <img class="fa-twitter" width="20" height="20" src="photos/fa-twitter.png"/> </a> </li>
+      <li> <a href="https://www.strava.com/athletes/35304956" target="_blank"> <img class="fa-strava" width="20" height="20" src="photos/fa-strava.png"/> </a> </li>
+    </ul>
+    </header>
+    <div class="aboutme_container">
+      <h1 class=aboutme_title>
+      A little bit about me!
+      </h1>
+      <p class="aboutme_content">
+      I'm a proud Greek, currently living between London and Athens. After a brief stint in the world of Hedge Funds about 5 years ago, I shifted my focus towards the field of Data Science and have loved every minute of it.
+      I'm having a great time working at Palantir for the past couple of years, where I've mostly been involved in developing custom statistical applications in the oil and gas industry.
+      Growing up I was a competitive basketball player, with my most significant achievement being the selection in the Greek national team U16. When I was 18 I chose an academic path over a potential basketball career. Admittedly, I'm happy with the way things have panned out, but I'd be lying if I said the itch has disappeared...Maybe some day though!
+      Endurance sports and in particular running have stolen my heart over the past year. I've also been dabbling with triathlons where my complete lack of swimming skills have not yet managed to completely discourage me. Follow my <a href="https://www.strava.com/athletes/35304956" target="_blank"> Strava</a> account to check out my workouts!
+      I made this blog primarily to practice some Front End dev skills, but also to meet like-minded people. Follow me on social media and hit me up with the form below if you want to connect.
+      </p>
+    </div>
+    <div class="contact-form">
+      <form action="https://formspree.io/mrgykqwj" method="post">
+
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">E-mail</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Please enter your message here..." style="height:100px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
   </body>
 </html>
