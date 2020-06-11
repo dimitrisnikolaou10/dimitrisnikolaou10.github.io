@@ -55,6 +55,11 @@
   font-family: sans-serif;
 }
 
+.blog_title{
+  font-family: Marker Felt, fantasy;
+  text-align: center;
+}
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
