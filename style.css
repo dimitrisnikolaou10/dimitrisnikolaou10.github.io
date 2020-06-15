@@ -1,4 +1,4 @@
-.navigation_home, .navigation_about {
+.navigation_home, .navigation_about, .navigation_post, .navigation_blog_post {
   box-sizing: border-box;
   background-color: #FFFFFF;
   overflow: auto;
@@ -58,7 +58,63 @@
 .blog_title{
   font-family: Marker Felt, fantasy;
   text-align: center;
+  font-size: 72px;
 }
+
+.post_title{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 72px;
+}
+
+.post_meta{
+  color: #d5d5d5;
+}
+
+.post_content{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.blog_img {
+  background-color: #aaa;
+  width: 100%;
+  height:60%;
+  /* padding: 20px; */
+  /* float: center; */
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #f8f8f8;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  /* -webkit-transition: all 0.3s;
+  transition: all 0.3s; */
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.card:hover{
+  background: #d5d5d5;
+  padding: 10px
+}
+
+.bg-post-image{
+  padding: 0px
+}
+
+
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -143,8 +199,12 @@ li {
   /* text-transform: uppercase; */
 }
 
-a {
+.navigation_home a, .navigation_about a, .navigation_post a, .right-half a, .leftcolumn a, .navigation_blog_post a {
   color: #000000;
+}
+
+.leftcolumn a{
+  text-decoration:none;
 }
 
 form {
