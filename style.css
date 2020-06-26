@@ -11,23 +11,35 @@
 }
 
 
-.content_container {
-  display: table;
-  padding: 10px 10px 10px 10px
+.home{
+  height: auto;
+  width: 1000px;
 }
 
-.left-half {
+.content_container {
+  display: table;
+  padding: 10px 10px 10px 10px;
+  /* height: 100px;
+  width: 350px; */
+}
+
+.content_container_image{
+
+}
+
+.profile-photo {
   /* background-color: #ff9e2c; */
   position: absolute;
   left: 0px;
-  width: 50%;
+  /* width: 50%; */
+  /* height: 25% */
   /* margin-left: 100px;
   margin-top: 20px; */
-  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); */
 }
 
-.right-half {
+.profile-text {
   /* background-color: #b6701e; */
   position: absolute;
   right: 0px;
@@ -61,20 +73,50 @@
   font-size: 72px;
 }
 
-.post_title{
-  font-family: sans-serif;
+.blog_post_title{
+  font-family: Marker Felt, fantasy;
   text-align: center;
-  font-size: 72px;
+  font-size: 36px;
+}
+.blog_post_subtitle{
+  font-family: Marker Felt, fantasy;
+  text-align: center;
+  font-size: 18px;
+}
+
+.post_title{
+  font-family: Marker Felt, fantasy;
+  text-align: center;
+  font-size: 48px;
+}
+.post_subtitle{
+  font-family: Marker Felt, fantasy;
+  text-align: center;
+  font-size: 24px;
 }
 
 .post_meta{
   color: #d5d5d5;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 12px;
 }
 
 .post_content{
   font-family: sans-serif;
   text-align: center;
   font-size: 16px;
+}
+
+.post_top_comments{
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 12px;
+}
+
+.post_section_title{
+  text-align: left;
+  font-weight: bold;
 }
 
 .leftcolumn {
@@ -111,9 +153,18 @@
 }
 
 .bg-post-image{
-  padding: 0px
+  padding: 0px;
+  height: 100%;
+  width: 100%;
 }
 
+.post_image_title{
+  display: block;
+  height: 300px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 input[type=text], select, textarea {
@@ -199,7 +250,7 @@ li {
   /* text-transform: uppercase; */
 }
 
-.navigation_home a, .navigation_about a, .navigation_post a, .right-half a, .leftcolumn a, .navigation_blog_post a {
+.navigation_home a, .navigation_about a, .navigation_post a, .profile-text a, .leftcolumn a, .navigation_blog_post a {
   color: #000000;
 }
 
