@@ -188,6 +188,14 @@
   margin-right: auto;
 }
 
+.post_image_content{
+  display: block;
+  height: 400px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
