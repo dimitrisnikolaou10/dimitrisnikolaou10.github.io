@@ -190,8 +190,8 @@
 
 .post_image_content{
   display: block;
-  height: 400px;
-  width: 40%;
+  /* height: 400px;
+  width: 40%; */
   margin-left: auto;
   margin-right: auto;
 }
